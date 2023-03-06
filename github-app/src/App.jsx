@@ -14,7 +14,7 @@ function App() {
           </Route>
           <Route path="/github/search" element={<GithubUserSearch />} />
           <Route path="/github/users/:username" element={<GithubUser />} />
-          <Route path="*" element={<h1>404</h1>} />
+          <Route path="*" element={<h1>404 Page</h1>} />
         </Routes>
       </Router>
     </div>
